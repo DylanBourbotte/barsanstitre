@@ -8,4 +8,13 @@
     <title>Le bar sans titre - ROOFTOP</title>
 </head>
 <body>
-    
+<div id="pagewrap">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
