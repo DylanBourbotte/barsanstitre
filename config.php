@@ -2,8 +2,8 @@
 
 $footernav = [
     "mention.php" => "Mentions légal",
-    "#" => "Page facebook",
-    "#contact" => "Nous contactez",
+    "https://fr-fr.facebook.com/lebarsanstitre/" => "Page facebook",
+    "contact.php" => "Nous contactez",
 ];
 
 
