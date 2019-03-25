@@ -12,10 +12,11 @@
   <div id="pagewrap">
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contacts</a></li>
+        <?php 
+            foreach ($headernav as $key => $value) {
+                echo "<li><a href=".$key.">".$value."</a></li>";
+            };
+        ?>
       </ul>
     </nav>
   </div>

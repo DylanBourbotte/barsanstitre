@@ -6,5 +6,12 @@ $footernav = [
     "contact.php" => "Nous contactez",
 ];
 
+$headernav = [
+    "#home" => "Accueil",
+    "#rooftop" => "Rooftop",
+    "#product" => "Produit",
+    "#reservation" =>"Réservation",
+];
+
 
 ?>
