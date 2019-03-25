@@ -8,9 +8,9 @@ $footernav = [
 
 $headernav = [
     "#home" => "Accueil",
-    "#about" => "A propos",
+    "#about" => "À propos",
     "#rooftop" => "Rooftop",
-    "#product" => "Produit",
+    "#product" => "Produits",
     "#reservation" =>"Réservation",
 ];
 
