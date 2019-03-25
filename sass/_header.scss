@@ -3,6 +3,9 @@
     width: 100%;
     margin: 0 auto;
   }
+  header{
+
+  
 nav{
     left: 0px;
     margin: 0 auto;
@@ -31,21 +34,26 @@ nav{
     border-bottom: 2px solid #ccc;
     padding-bottom: 8px;
 }
+}
   @media (max-width: 900px){
     #pagewrap {
     width: auto;
     float: none;
 }
+header{
+
     nav ul li a{
-      text-align: center;
-      padding: 0;
-      margin: 0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+        }
     }
-  
   }
   
   @media (max-width: 400px){
+    header{
     nav ul li{
-      padding: 5px;
+    padding: 5px;
+        }
     }
   }

@@ -8,7 +8,8 @@
     <title>Le bar sans titre - ROOFTOP</title>
 </head>
 <body>
-<div id="pagewrap">
+<header>
+  <div id="pagewrap">
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -18,3 +19,4 @@
       </ul>
     </nav>
   </div>
+</header>
