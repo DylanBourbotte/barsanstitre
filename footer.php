@@ -3,7 +3,17 @@
 
 
 
-
+<footer class="main-footer">
+    <nav>
+        <ul>
+            <?php
+                foreach ($footernav as $key => $value) {
+                    echo "<li><a href=".$key.">".$value."</a></li>";
+                };
+            ?>
+        </ul>
+    </nav>
+</footer>
 
 
 
