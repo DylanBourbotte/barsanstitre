@@ -12,11 +12,15 @@ footer {
                 color: #ffffff;
                 text-decoration: none;
                 font-family: "Montserrat", sans-serif;
-            }
+                text-decoration: none;
+                    &:hover {
+                        border-bottom: 2px solid rgb(240, 108, 0);
+                        color: #ffffff;
+                        padding-bottom: 8px;
+                        transition: .3s;
+                        text-decoration: none;
 
-            a:hover {
-                color: #ffffff;
-                transition: color 0.3s;
+                    }        
             }
         }
     } 
