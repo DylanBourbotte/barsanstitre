@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     height: 60px;
-    background: #ffffff;    
+    background: #ca5c12;    
     nav ul {
         display: flex;
         justify-content: center;
@@ -9,9 +9,14 @@ footer {
             list-style: none;
             padding: 15px 15px;
             a {
-                color: #2c2c2c;
+                color: #ffffff;
                 text-decoration: none;
                 font-family: "Montserrat", sans-serif;
+            }
+
+            a:hover {
+                color: #036600;
+                transition: color 0.3s;
             }
         }
     } 
