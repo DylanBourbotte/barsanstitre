@@ -7,7 +7,7 @@ $footernav = [
 ];
 
 $headernav = [
-    "#home" => "Accueil",
+    "index.php" => "Accueil",
     "#rooftop" => "Rooftop",
     "#product" => "Produit",
     "#reservation" =>"Réservation",
