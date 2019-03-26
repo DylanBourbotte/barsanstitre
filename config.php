@@ -8,7 +8,6 @@ $footernav = [
 
 $headernav = [
     "index.php" => "Accueil",
-    "#home" => "Accueil",
     "#about" => "À propos",
     "#rooftop" => "Rooftop",
     "#product" => "Produits",
