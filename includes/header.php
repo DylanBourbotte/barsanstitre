@@ -8,8 +8,10 @@
     <title>Le bar sans titre - ROOFTOP</title>
 </head>
 <body>
-<div class="logo">
-<div class="img"></div>
+<div class="container">
+  <div class="logo">
+    <img src="img/logonoir.png" class="img-fluid" alt="Responsive image">
+  </div>
 </div>
 <header>
   <div id="pagewrap">
