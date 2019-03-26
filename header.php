@@ -8,10 +8,12 @@
     <title>Le bar sans titre - ROOFTOP</title>
 </head>
 <body>
+<section class='fond'>
 <div class="logo">
-<div class="img"></div>
+    <div class="img"></div>
 </div>
 <header>
+  
   <div id="pagewrap">
     <nav>
       <ul>
@@ -24,4 +26,4 @@
     </nav>
   </div>
 </header>
-
+</section>
