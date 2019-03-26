@@ -17,7 +17,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!-- //Bootstrap -->
 <!-- Nos fichiers CSS / JS -->
-<link rel="stylesheet" href="./../css/app.min.css">
+<link rel="stylesheet" href="./css/app.min.css">
 <script src='./js/app.js'></script>
 </body>
 </html>
