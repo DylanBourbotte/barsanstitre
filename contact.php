@@ -1,16 +1,15 @@
 <?php
-require('config.php');
-include('header.php');
+require('includes/config.php');
+include('includes/header.php');
 ?>
-/<!--Section: Contact v.2-->
-<div class="conteneur">
+<!--Section: Contact v.2-->
+<div class="container">
 <section class="mb-4">
 
 <!--Section heading-->
-<h2 class="contact" class="h1-responsive font-weight-bold text-center my-4">Contact </h2>
+<h2 class="blanc" class="h1-responsive font-weight-bold text-center my-4">Contact </h2>
 <!--Section description-->
-<p class="contact" class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-    a matter of hours to help you.</p>
+<p class="blanc" class="text-center w-responsive mx-auto mb-5">si vous avez des  questions? .</p>
 
 <div class="row">
 
@@ -25,7 +24,7 @@ include('header.php');
                 <div class="col-md-6">
                     <div class="md-form mb-0">
                         <input type="text" id="name" name="name" class="form-control">
-                        <label for="name" class="">Votre nom</label>
+                        <label for="name" class="blanc">Votre nom</label>
                     </div>
                 </div>
                 <!--Grid column-->
@@ -34,7 +33,7 @@ include('header.php');
                 <div class="col-md-6">
                     <div class="md-form mb-0">
                         <input type="text" id="email" name="email" class="form-control">
-                        <label for="email" class="">Votre email</label>
+                        <label for="email" class="blanc">Votre email</label>
                     </div>
                 </div>
                 <!--Grid column-->
@@ -47,7 +46,7 @@ include('header.php');
                 <div class="col-md-12">
                     <div class="md-form mb-0">
                         <input type="text" id="subject" name="subject" class="form-control">
-                        <label for="subject" class="">Subject</label>
+                        <label for="subject" class="blanc">Sujet</label>
                     </div>
                 </div>
             </div>
@@ -61,7 +60,7 @@ include('header.php');
 
                     <div class="md-form">
                         <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                        <label for="message">Your message</label>
+                        <label class="blanc" for="message">Votre message</label>
                     </div>
 
                 </div>
@@ -71,7 +70,7 @@ include('header.php');
         </form>
 
         <div class="text-center text-md-left">
-            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            <a class="btn btn-block btn-orange" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
         </div>
         <div class="status"></div>
     </div>
@@ -81,15 +80,15 @@ include('header.php');
     <div class="col-md-3 text-center">
         <ul class="list-unstyled mb-0">
             <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                <p>bar sans titre rooftop</p>
+                <p class="blanc">le bar sans titre rooftop</p>
             </li>
 
             <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 01 234 567 89</p>
+                <p class="blanc"> 07 67 48 66 38</p>
             </li>
 
             <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                <p>bar sans titre .fr</p>
+                <p class="blanc">bar sans titre .fr</p>
             </li>
         </ul>
     </div>
@@ -98,8 +97,8 @@ include('header.php');
 </div>
 
 </section>
-<link rel="stylesheet" href="app.scss">
+
 <!--Section: Contact v.2-->
 <?php
-include('footer.php');
+include('includes/footer.php');
 ?>  

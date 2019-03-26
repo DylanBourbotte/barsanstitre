@@ -1,14 +1,8 @@
 <?php 
-require('config.php');
-include('header.php');
+require('/includes/config.php');
+include('/includes/header.php');
 ?>
 
-
-
-
-
-
-
 <?php 
-include('footer.php');
+include('/includes/footer.php');
 ?>
