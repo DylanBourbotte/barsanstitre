@@ -7,7 +7,7 @@ header{
         justify-content: center;
         align-content: center;
         nav{
-            margin: 0 auto;
+            margin: 50px auto;
             width: 100%;
             background: rgba($color: #1b1b1b, $alpha: 0.5);
             ul{
@@ -16,7 +16,7 @@ header{
                     display: inline-block;
                     list-style: none;
                     text-align: center;
-                    padding: 35px;
+                    padding-top: 15px;
                     height: 2%;
                     a{
                         text-decoration: none;
@@ -39,19 +39,17 @@ header{
 }
 
 .rare{
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Shadows Into Light Two', cursive;
     display: flex;
     justify-content: center;
     color: #ffffff;
 
 }
-.rare:hover{
-    color: #00580f;
-}
+
 
 .img-fluid {
-    width: 35%;
-    height: auto;
+    width: 45%;
+    height: 45%;
 }
 
 @media (max-width: 900px){
