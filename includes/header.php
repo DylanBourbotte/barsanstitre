@@ -10,7 +10,7 @@
 <body>
 <div class="container">
   <div class="logo">
-    <img src="img/logonoir.png" class="img-fluid" alt="Responsive image" style="width: 40%; height: auto">
+    <img src="img/logonoir.png" class="img-fluid" alt="Responsive image">
   
   </div>
 

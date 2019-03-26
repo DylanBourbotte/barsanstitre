@@ -48,6 +48,12 @@ header{
 .rare:hover{
     color: #00580f;
 }
+
+.img-fluid {
+    width: 35%;
+    height: auto;
+}
+
 @media (max-width: 900px){
     #pagewrap {
             width: auto;
@@ -67,5 +73,9 @@ header{
         nav ul li{
             padding: 5px;
         }
+    }
+    .img-fluid {
+        width: 45%;
+        height: auto;
     }
 }
