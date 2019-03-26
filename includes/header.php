@@ -10,9 +10,13 @@
 <body>
 <div class="container">
   <div class="logo">
-    <img src="img/logonoir.png" class="img-fluid" alt="Responsive image" style="width: 40%">
+    <img src="img/logonoir.png" class="img-fluid" alt="Responsive image" style="width: 40%; height: auto">
+  
   </div>
+
+  <h1 class="text-justify rare">La rareté fait l’exclusivité</h1>
 </div>
+
 <header>
   <div id="pagewrap">
     <nav>

@@ -36,7 +36,18 @@ header{
             }
         }
     }
-}   
+}
+
+.rare{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+
+}
+.rare:hover{
+    color: #00580f;
+}
 @media (max-width: 900px){
     #pagewrap {
             width: auto;
