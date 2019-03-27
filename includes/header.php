@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="icon" type="image/png" href="img/logonoir.png">
     <title>Le bar sans titre - ROOFTOP</title>
 </head>
 <body>
-<div class="logo">
-<div class="img"></div>
+
+<div class="banner">
+  <div class="container">
+    <div class="logo">
+      <img src="img/logonoir.png" class="img-fluid" alt="Responsive image">
+    </div>
 </div>
+
 <header>
   <div id="pagewrap">
     <nav>
@@ -24,4 +29,5 @@
     </nav>
   </div>
 </header>
+</div>
 
