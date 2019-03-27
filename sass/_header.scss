@@ -6,8 +6,8 @@ header{
         display: flex;
         justify-content: center;
         align-content: center;
+        position: relative;
         nav{
-            margin: 50px auto;
             width: 100%;
             background: rgba(27, 27, 27, 0.81);
             ul{
@@ -46,13 +46,15 @@ header{
 
 }
 
-
 .img-fluid {
-    width: 45%;
-    height: 45%;
+    width: 50%;
+    height: 50%;
 }
 
-@media (max-width: 900px){
+
+
+
+@media (max-width: 992px){ // Little desktop
     #pagewrap {
             width: auto;
         float: none;
@@ -66,14 +68,17 @@ header{
         }
     }
 } 
-@media (max-width: 400px){
+@media (max-width: 576px){ // Landscape Phone
     header{
         nav ul li{
-            padding: 5px;
+            padding: 0px;
         }
     }
     .img-fluid {
         width: 45%;
         height: auto;
     }
+
+
+
 }
