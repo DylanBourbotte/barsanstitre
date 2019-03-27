@@ -6,17 +6,17 @@ header{
         display: flex;
         justify-content: center;
         align-content: center;
+        position: relative;
         nav{
-            margin: 0 auto;
             width: 100%;
-            background-color: rgba($color: #2c2c2c, $alpha: 0.6);
+            background: rgba(27, 27, 27, 0.81);
             ul{
                 text-align: center;
                 li{
                     display: inline-block;
                     list-style: none;
                     text-align: center;
-                    padding: 20px;
+                    padding-top: 15px;
                     height: 2%;
                     a{
                         text-decoration: none;
@@ -36,8 +36,25 @@ header{
             }
         }
     }
-}   
-@media (max-width: 900px){
+}
+
+.rare{
+    font-family: 'Shadows Into Light Two', cursive;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+
+}
+
+.img-fluid {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+@media (max-width: 992px){ // Little desktop
     #pagewrap {
             width: auto;
         float: none;
@@ -51,10 +68,17 @@ header{
         }
     }
 } 
-@media (max-width: 400px){
+@media (max-width: 576px){ // Landscape Phone
     header{
         nav ul li{
-            padding: 5px;
+            padding: 0px;
         }
     }
+    .img-fluid {
+        width: 45%;
+        height: auto;
+    }
+
+
+
 }
