@@ -8,11 +8,6 @@
     <title>Le bar sans titre - ROOFTOP</title>
 </head>
 <body>
-<<<<<<< HEAD
-<section class='fond'>
-<div class="logo">
-    <div class="img"></div>
-=======
 
 
 <div class="banner">
@@ -20,26 +15,9 @@
     <div class="logo">
       <img src="img/logonoir.png" class="img-fluid" alt="Responsive image">
     </div>
->>>>>>> 3df435cb7fb20d5e9410300c7be2f44a4ba245fe
 </div>
 
 <header>
-<<<<<<< HEAD
-  
-  <div id="pagewrap">
-    <nav>
-      <ul>
-        <?php 
-            foreach ($headernav as $key => $value) {
-                echo "<li><a href=".$key.">".$value."</a></li>";
-            };
-        ?>
-      </ul>
-    </nav>
-  </div>
-</header>
-</section>
-=======
 <div id="pagewrap">
         <nav id='navBar'>
           <ul class="menu">
@@ -105,4 +83,3 @@ Dignissimos, totam delectus! Hic porro soluta aliquam ex quibusdam modi perferen
 Aliquid optio dicta eius adipisci, labore laboriosam laborum accusamus, sapiente, provident natus quisquam est id similique dolore nostrum ipsum? Voluptatem alias laborum corporis repellendus possimus quisquam sequi vitae dolorem distinctio.</p>
 
 
->>>>>>> 3df435cb7fb20d5e9410300c7be2f44a4ba245fe
