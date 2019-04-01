@@ -1,3 +1,6 @@
+<?php
+$current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -85,9 +88,25 @@
       <!-- sidebar menu: : style cang/user2-160x160. be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview">
-          <a href="#">
+        <li class="treeview <?= ($current_page === "index") ? 'active' : '' ?>">
+          <a href="index.php">
             <i class="fa fa-dashboard"></i> <span>Administration</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+        </li>
+        <li class="treeview <?= ($current_page === "contacts") ? 'active' : '' ?>">
+          <a href="contacts.php">
+            <i class="fa fa-align-left"></i> <span>Demande de contact</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+        </li>
+        <li class="treeview <?= ($current_page === "reservations") ? 'active' : '' ?>">
+          <a href="reservations.php">
+            <i class="fa fa-calendar"></i> <span>Résérvations</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
