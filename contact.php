@@ -1,4 +1,4 @@
-
+<?php include('includes/header.php');?>
 <!--Section: Contact v.2-->
 <div class="container">
 <section class="mb-4">
