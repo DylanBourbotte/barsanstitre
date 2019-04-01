@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
 @import 'vars';
 @import 'image';
 @import 'footer';
@@ -26,6 +27,13 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
     width: 100%;
     height: 100vh;
+}
+
+main {
+    position: relative;
+    background: #2c2c2c;
 }
