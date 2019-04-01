@@ -6,8 +6,9 @@ try
 catch (Exception $e)
 {
   die('Erreur : ' . $e->getMessage());
+}
   ?>
   <?php
   $retour = $bdd->prepare("SELECT COUNT(*) AS total FROM reservation");
-$retour->execute();
+  $retour->execute();
 ?>

@@ -1,5 +1,9 @@
 <?php
+//ACTIVATION DES ERREURS
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
+require_once('./../includes/config.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -88,7 +92,8 @@ $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
       <!-- sidebar menu: : style cang/user2-160x160. be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="treeview <?= ($current_page === "index") ? 'active' : '' ?>">
+        <?php var_dump($AdminMenu);?>
+        <!-- <li class="treeview <?= ($current_page === "index") ? 'active' : '' ?>">
           <a href="index.php">
             <i class="fa fa-dashboard"></i> <span>Administration</span>
             <span class="pull-right-container">
@@ -98,7 +103,7 @@ $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
         </li>
         <li class="treeview <?= ($current_page === "contacts") ? 'active' : '' ?>">
           <a href="contacts.php">
-            <i class="fa fa-align-left"></i> <span>Demande de contact</span>
+            <i class="fa "></i> <span>Demande de contact</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -111,7 +116,7 @@ $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-        </li>
+        </li> -->
       </ul>
     </section>
     <!-- /.sidebar -->

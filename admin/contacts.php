@@ -1,22 +1,12 @@
 <?php include('includes/header.php');
-
-//ACTIVATION DES ERREURS
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
 
-    <?php
+<?php
 //connection a la base de donnée
-try
-{
-  $bdd = new PDO('mysql:host=localhost;dbname=bar-sans-titre;charset=utf8', 'root', 'philippe');
-}
-catch (Exception $e)
-{
-  die('Erreur : ' . $e->getMessage());
-}
+require_once('../includes.config.php');
+
 $retour = $bdd->prepare("SELECT COUNT(*) AS total FROM contacts");
 $retour->execute();
 
