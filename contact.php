@@ -1,7 +1,4 @@
-<?php
-require('includes/config.php');
-include('includes/header.php');
-?>
+
 <!--Section: Contact v.2-->
 <div class="container">
 <section class="mb-4">
@@ -16,7 +13,6 @@ include('includes/header.php');
     <!--Grid column-->
     <div class="col-md-9 mb-md-0 mb-5">
         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
             <!--Grid row-->
             <div class="row">
 
@@ -101,4 +97,5 @@ include('includes/header.php');
 <!--Section: Contact v.2-->
 <?php
 include('includes/footer.php');
+header('Location: index.php');
 ?>  
