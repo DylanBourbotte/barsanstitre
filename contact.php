@@ -4,9 +4,9 @@
 <section class="mb-4">
 
 <!--Section heading-->
-<h2 class="blanc" class="h1-responsive font-weight-bold text-center my-4">Contact </h2>
+<h2 class="blanc centerTxt" class="h1-responsive font-weight-bold text-center my-4">Contact </h2>
 <!--Section description-->
-<p class="blanc" class="text-center w-responsive mx-auto mb-5">si vous avez des  questions? .</p>
+<p class="blanc centerTxt" class="text-center w-responsive mx-auto mb-5">si vous avez des  questions? .</p>
 
 <div class="row">
 
@@ -73,7 +73,10 @@
     <!--Grid column-->
 
     <!--Grid column-->
-    <div class="col-md-3 text-center">
+    <!--Grid column-->
+</div>
+</div>
+<div class="col-md-3 text-center">
         <ul class="list-unstyled mb-0">
             <li><i class="fas fa-map-marker-alt fa-2x"></i>
                 <p class="blanc">Le bar sans titre rooftop</p>
@@ -88,9 +91,6 @@
             </li>
         </ul>
     </div>
-    <!--Grid column-->
-</div>
-</div>
 
 </section>
 
