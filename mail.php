@@ -1,15 +1,8 @@
 <?php
-//ACTIVATION DES ERREURS
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-
-define('GMailUSER', 'philippe.lamorskipro@gmail.com'); // utilisateur Gmail
-define('GMailPWD', 'i5d505sy0'); // Mot de passe Gmail
-
-// Import de la connexion BDD
-require('includes/bddconnect.php');
 // CHARGEMENT DES AUTOLOAD (PHPMAILER)
 require('vendor/autoload.php');
+// CHARGEMENT DE LA CONFIG DU SITE
+require_once('/includes/config.php');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;

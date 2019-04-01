@@ -1,4 +1,4 @@
-
+<?php include('includes/header.php');?>
 <!--Section: Contact v.2-->
 <div class="container">
 <section class="mb-4">
@@ -97,5 +97,4 @@
 <!--Section: Contact v.2-->
 <?php
 include('includes/footer.php');
-header('Location: index.php');
 ?>  
