@@ -23,9 +23,9 @@
   <div class="data">
     <nav>
     <ul>
-      <li><a class='leA' href="#">A propos</a></li>
-      <li><a class='leA' href="#">Rooftop</a></li>
-      <li><a class='leA' href="#">About</a></li>
+      <li><a class='leA' href="#about">A propos</a></li>
+      <li><a class='leA' href="#rooftop">Rooftop</a></li>
+      <li><a class='leA' href="#product">About</a></li>
       <li><a class='leA' href="#">Team</a></li>
     </ul>
     </nav>
