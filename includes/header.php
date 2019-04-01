@@ -28,8 +28,8 @@ require('includes/config.php');
     <ul>
       <li><a class='leA' href="#about">A propos</a></li>
       <li><a class='leA' href="#rooftop">Rooftop</a></li>
-      <li><a class='leA' href="#product">About</a></li>
-      <li><a class='leA' href="#">Team</a></li>
+      <li><a class='leA' href="#product">Produits</a></li>
+      <li><a class='leA' href="contact.php">Contact</a></li>
     </ul>
     </nav>
   </div>

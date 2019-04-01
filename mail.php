@@ -2,7 +2,7 @@
 // CHARGEMENT DES AUTOLOAD (PHPMAILER)
 require('vendor/autoload.php');
 // CHARGEMENT DE LA CONFIG DU SITE
-require_once('/includes/config.php');
+require_once('includes/config.php');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
