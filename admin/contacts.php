@@ -4,8 +4,7 @@
 <div class="content-wrapper">
 
 <?php
-//connection a la base de donnée
-require_once('../includes.config.php');
+
 
 $retour = $bdd->prepare("SELECT COUNT(*) AS total FROM contacts");
 $retour->execute();

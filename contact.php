@@ -97,5 +97,4 @@
 <!--Section: Contact v.2-->
 <?php
 include('includes/footer.php');
-header('Location: index.php');
 ?>  
