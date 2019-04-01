@@ -5,6 +5,7 @@
 <div class="content-wrapper">
 
 <?php
+<<<<<<< HEAD
 
   $retour = $bdd->prepare("SELECT COUNT(*) AS total FROM reservation");
   $retour->execute();
@@ -157,3 +158,16 @@
             </div>
             </div>
 </div></section>
+=======
+include_once('includes/header.php');
+?>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+
+
+</div>
+
+<?php
+include_once('includes/footer.php');
+?>
+>>>>>>> e4d5bf6623ce6515ac43ac80a0073447895dc93f

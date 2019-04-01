@@ -1,7 +1,9 @@
 <?php
+require_once('./../includes/config.php');
+
 
 $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
-require_once('./../includes/config.php');
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -90,7 +92,21 @@ require_once('./../includes/config.php');
       <!-- sidebar menu: : style cang/user2-160x160. be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <?php var_dump($AdminMenu);?>
+        <?php
+        foreach ($AdminMenu as $key => $value):
+          ?>
+          <li class="treeview <?=  ($current_page === $key) ? 'active' : '' ?>">
+                <a href="<?= $value[2]?>">
+                  <i class="fa  <?=$value[0]?>"></i> <span> <?=$value[1]?></span>
+                  <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                  </span>
+                </a>
+              </li>
+        <?php
+        endforeach;
+        ?>
+        
         <!-- <li class="treeview <?= ($current_page === "index") ? 'active' : '' ?>">
           <a href="index.php">
             <i class="fa fa-dashboard"></i> <span>Administration</span>
