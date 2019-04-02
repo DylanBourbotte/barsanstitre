@@ -103,3 +103,4 @@ t1.reversed(!t1.reversed());//toggles the orientation
 $(document).on("click", "a", function(){
 t1.reversed(!t1.reversed());//sets the orientation to reversed
 });
+
