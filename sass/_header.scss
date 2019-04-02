@@ -1,14 +1,27 @@
-header{
+
+
+
+
+
+
+
+
+// @media (max-width: 992px){ // Little desktop
+    
+
+@media (max-width: 768px){ // Landscape Phone
+  header{
     .toggle-btn {
-        position: fixed;
-        margin: 1.2em;
-        margin-top: 1%;
-        padding: 1em;
-        width: 40px;
-        height: 12px;
-        right: 40px;
-        z-index: 2;
-        display: inline-block;
+      position: fixed;
+      margin: 1.2em;
+      margin-top: 1%;
+      padding: 1em;
+      width: 40px;
+      height: 12px;
+      right: 40px;
+      z-index: 2;
+      display: inline-block;
+      // display: none;
       }
       .one{
         position: absolute;
@@ -73,18 +86,4 @@ header{
   position: fixed;
   display: inline-block;
 }
-
-
-
-
-
-
-
-// @media (max-width: 992px){ // Little desktop
-    
-
-@media (max-width: 576px){ // Landscape Phone
-  .toggle-btn {
-    display: block;
-  }
 };
