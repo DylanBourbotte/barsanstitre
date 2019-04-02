@@ -15,6 +15,9 @@ require('includes/config.php');
 
 
 <div class="banner">
+<div class="etiquettelogo">
+  <img src="./img/logonoir.png" alt="logo du bar">
+</div>
 <div class="bgHeader">
 <div class="logobar">
   <!-- <img src="../img/logonoir.png" alt=""> -->
