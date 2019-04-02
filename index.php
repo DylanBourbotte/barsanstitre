@@ -1,7 +1,7 @@
 <?php 
 include('includes/header.php');
 ?>
-<main>
+<main class="home">
 <div class="blanc">
 <h2 id="about">A PROPOS<h2>
 <p>le bar sans titre vous acceuil dans une ambiance cosy avec de la musique jazz/housse</P>
