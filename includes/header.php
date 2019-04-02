@@ -53,11 +53,6 @@ require('includes/config.php');
   </div>
 </div>
 
-<<<<<<< HEAD
-
-=======
-<div id="navDeskop"></div>
->>>>>>> be97a6b64dfa50234dc52d8c316127de3d58d711
 </header>
 
 
