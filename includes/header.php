@@ -53,15 +53,11 @@ require('includes/config.php');
   </div>
 </div>
 
+<<<<<<< HEAD
+=======
+<div id="navDeskop"></div>
+>>>>>>> f46d96f0179b36f38659a5ae7ef0f045587156c6
 </header>
 
 
 </div> <!-- Bg header -->
-
-$(function(){
-  const nav = $("#nav").html();
-
-  $("#navDeskop").html(nav); 
-
-
-});
