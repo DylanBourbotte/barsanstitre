@@ -93,6 +93,14 @@
     </div>
 
 </section>
+<script src="https://www.google.com/recaptcha/api.js?render=6Le2TpsUAAAAAISF7sonGfMOxDWh47GiLEyKnK8Q"></script>
+  <script>
+  grecaptcha.ready(function() {
+      grecaptcha.execute('6Le2TpsUAAAAAISF7sonGfMOxDWh47GiLEyKnK8Q', {action: 'homepage'}).then(function(token) {
+        
+      });
+  });
+  </script>
 
 <!--Section: Contact v.2-->
 <?php
