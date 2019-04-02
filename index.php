@@ -1,7 +1,10 @@
 <?php 
 include('includes/header.php');
 ?>
-<main class="home">
+
+
+
+<!-- <main class="home">
 <div class="blanc">
 <h2 id="about">A PROPOS<h2>
 <p>le bar sans titre vous acceuil dans une ambiance cosy avec de la musique jazz/housse</P>
@@ -16,7 +19,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit voluptat
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur saepe laudantium iure tenetur beatae sunt provident! Eaque, autem libero inventore provident reiciendis sit, quod aut adipisci in obcaecati facilis perferendis.</p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ducimus autem debitis architecto quisquam, consectetur in tempore quibusdam veritatis, odit voluptatum iste excepturi vel provident dolor, nemo assumenda voluptates? Quo!</p>
 </div>
-</main>
+</main> -->
 
 <?php 
 include('includes/footer.php');
