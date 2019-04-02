@@ -14,7 +14,7 @@ require('includes/config.php');
 <body>
 
 
-<div class="banner">
+
 <div class="etiquettelogo">
   <img src="./img/logonoir.png" alt="logo du bar">
 </div>
@@ -45,4 +45,3 @@ require('includes/config.php');
 
 
 </div> <!-- Bg header -->
-</div>  <!-- Class Banner -->
