@@ -94,7 +94,8 @@ header{
 // @media (max-width: 992px){ // Little desktop
     
 
- @media (max-width: 576px){ // Landscape Phone
-
- };
-
+@media (max-width: 576px){ // Landscape Phone
+  .toggle-btn {
+    display: block;
+  }
+};
