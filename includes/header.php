@@ -41,7 +41,7 @@ require('includes/config.php');
 
 <div class="menuContent">
   <div class="data">
-    <nav>
+    <nav id="nav">
     <ul>
       <li><a class='leA' href="#about">A propos</a></li>
       <li><a class='leA' href="#rooftop">Rooftop</a></li>
@@ -53,8 +53,20 @@ require('includes/config.php');
   </div>
 </div>
 
+<<<<<<< HEAD
 
+=======
+<div id="navDeskop"></div>
+>>>>>>> be97a6b64dfa50234dc52d8c316127de3d58d711
 </header>
 
 
 </div> <!-- Bg header -->
+
+$(function(){
+  const nav = $("#nav").html();
+
+  $("#navDeskop").html(nav); 
+
+
+});

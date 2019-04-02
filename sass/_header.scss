@@ -105,6 +105,7 @@
   background-color: #4d4d4d;
   position: fixed;
   display: inline-block;
+  z-index: 2;
 }
 
 
@@ -113,7 +114,7 @@
   position: fixed;
   width: 150px;
   height: 150px;
-  //  background: #000000;
+  // background: linear-gradient(#4c4c4c 50%, #2c2c2c 50%);
   margin-left: 3%;
   margin-top: 0%;
   display: inline-block;

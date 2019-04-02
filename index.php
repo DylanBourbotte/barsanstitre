@@ -3,6 +3,31 @@ include('includes/header.php');
 ?>
 
 
+<main class="partOne">
+
+<div class="divider">
+    <section class="partOneTxt">
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      
+    <h1 class="titleOne">Le Bar Sans Titre</h1>
+    <p class="paraOne">Vous accueille du mardi au jeudi de 18h00 à 01h00 et du vendredi de 18h00 à 02H00.
+                        Nous vous proposons un bar zen et cosy dans un cadre agréable et chaleureux.
+                         Notre bar dispose d'un endroit unique, à l'étage, un rooftop (à préciser zone plein soleil)
+                        Il est possible d'effectuer des réservations afin de pouvoir privatiser le rooftop (anniversaires, repas d'affaires .... )
+                        N'hésitez pas à nous envoyer une demande si vous souhaitez le privatiser !
+                            Nous vous attendons avec impatience,                                                               A très bientôt !</p>
+    </div>
+</div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+</main>
 
 <!-- <main class="home">
 <div class="blanc">
