@@ -19,6 +19,17 @@ require('includes/config.php');
   <img src="./img/logonoir.png" alt="logo du bar">
 </div>
 <div class="bgHeader">
+<div class="navDeskop">
+<nav class='nav'>
+    <ul class='flex'>
+      <li><a class='leADeskop' href="#about">A propos</a></li>
+      <li><a class='leADeskop' href="#rooftop">Rooftop</a></li>
+      <li><a class='leADeskop' href="#product">Produits</a></li>
+      <li><a class='leADeskop' href="contact.php">Contact</a></li>
+      <li><a class='leADeskop' href="#">Réservation</a></li>
+    </ul>
+    </nav>
+</div>
 <div class="logobar">
   <!-- <img src="../img/logonoir.png" alt=""> -->
 </div>
@@ -36,10 +47,12 @@ require('includes/config.php');
       <li><a class='leA' href="#rooftop">Rooftop</a></li>
       <li><a class='leA' href="#product">Produits</a></li>
       <li><a class='leA' href="contact.php">Contact</a></li>
+      <li><a class='leA' href="#">Réservation</a></li>
     </ul>
     </nav>
   </div>
 </div>
+
 
 </header>
 

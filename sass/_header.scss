@@ -1,9 +1,29 @@
 
+.flex{
+  position: fixed;
+  display: flex;
+  list-style: none;
+  margin-left: 30%;
+  margin-top:10px;
+  li {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Patua One', cursive;
+    .leADeskop{
+      text-decoration: none;
+      color: #fff;
+      &:hover{
+          border-bottom: 2.5px solid rgb(240, 108, 0);
+          padding-bottom: 6px;
+          transition: .3s;
 
+      }
+      
+}    
+  }
 
-
-
-
+}
 
 
 // @media (max-width: 992px){ // Little desktop
@@ -76,6 +96,7 @@
         cursor: pointer;
 }
     
+}
 }
 
 .bgHeader {
