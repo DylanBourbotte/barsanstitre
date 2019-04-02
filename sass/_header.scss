@@ -12,18 +12,6 @@
 @media (max-width: 768px){ // Landscape Phone
   header{
     .toggle-btn {
-<<<<<<< HEAD
-      position: fixed;
-      margin: 1.2em;
-      margin-top: 1%;
-      padding: 1em;
-      width: 40px;
-      height: 12px;
-      right: 40px;
-      z-index: 2;
-      display: inline-block;
-      // display: none;
-=======
         position: fixed;
         margin: 1.2em;
         margin-top: 1%;
@@ -33,7 +21,6 @@
         right: 40px;
         z-index: 9999;
         display: inline-block;
->>>>>>> b77b47f83d191a4cabdafec8ba0844c149e30c53
       }
       .one{
         position: absolute;
