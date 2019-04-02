@@ -14,8 +14,11 @@ require('includes/config.php');
 <body>
 
 
-
-
+<div class="banner">
+<div class="bgHeader">
+<div class="logobar">
+  <!-- <img src="../img/logonoir.png" alt=""> -->
+</div>
 <header>
 <div class="toggle-btn">
   <span class="one"></span>
@@ -37,10 +40,6 @@ require('includes/config.php');
 
 </header>
 
-<div class="banner">
-  <div class="container-fluid">
-    <div class="logo">
-      <img src="img/logonoir.png" class="img-fluid" alt="Responsive image">
-    </div>
-</div>
-</div>
+
+</div> <!-- Bg header -->
+</div>  <!-- Class Banner -->
