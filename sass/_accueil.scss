@@ -5,27 +5,27 @@
 
 .divider{
     display:flex;
-    margin-top: 5%;
     z-index: 1;
     position: relative;
 }
 .partOneTxt {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .titleOne {
-    color: white;
+    color: rgb(200, 200, 200);
     display: flex;
     justify-content: center;
-    padding-top: 20px;
     font-family: 'Patua One', sans-serif;
-    color: white;
+    &:hover{
+        color:rgb(82, 93, 82);
+    }
 }
 
 
 .paraOne {
-    color: white;
+    color: rgb(200, 200, 200);
     font-size: 26px;
     padding: 15px;
     text-align: center;

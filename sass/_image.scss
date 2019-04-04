@@ -19,11 +19,7 @@
     height: 100vh;
 }
 
-.img-fluid {
-    width: 45%;
-    height: 45%;
-    // z-index: 1;
-}
+
 .logo {
     position: fixed;
     width: 100%;
@@ -37,3 +33,11 @@
         height: auto;
     }
 };
+.appear{
+    opacity:0;
+    position: relative;
+    top: 100px;
+}
+.grand{
+    font-size:2em;
+}

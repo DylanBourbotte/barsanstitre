@@ -3,30 +3,44 @@ include('includes/header.php');
 ?>
 
 
-<main class="partOne">
-
-<div class="divider">
-    <section class="partOneTxt">
-    <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      
-    <h1 class="titleOne">Le Bar Sans Titre</h1>
-    <p class="paraOne">Vous accueille du mardi au jeudi de 18h00 à 01h00 et du vendredi de 18h00 à 02H00.
-                        Nous vous proposons un bar zen et cosy dans un cadre agréable et chaleureux.
-                         Notre bar dispose d'un endroit unique, à l'étage, un rooftop (à préciser zone plein soleil)
-                        Il est possible d'effectuer des réservations afin de pouvoir privatiser le rooftop (anniversaires, repas d'affaires .... )
-                        N'hésitez pas à nous envoyer une demande si vous souhaitez le privatiser !
-                            Nous vous attendons avec impatience,                                                               A très bientôt !</p>
-    </div>
-</div>
-</div>
-</div>
+<main>
+    <p class='grand'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt esse maiores unde eligendi vitae sapiente adipisci qui. Aspernatur, maxime inventore enim animi, eaque ea doloribus dolorem, quasi amet ab porro?
+    Quos a itaque inventore explicabo officiis quia culpa ab blanditiis natus, necessitatibus tenetur cumque iste magni illo nulla cupiditate quo nobis sint quibusdam reiciendis non vero dolores pariatur? Provident, soluta?
+    Voluptatibus dolore quo id soluta libero vitae. Quod incidunt a vel doloribus quisquam autem blanditiis! Consequuntur, labore? Perferendis neque eos delectus eaque architecto possimus ducimus corporis totam praesentium! Sapiente, magnam.
+    Velit quam iste earum cumque illum, sunt nemo labore quis dolore repellat itaque unde? Sit sed placeat vero commodi quidem, ullam iusto dignissimos cupiditate nam! Beatae officia temporibus veritatis consectetur.
+    Maiores voluptates quisquam ipsum, harum voluptatem laudantium quidem illum deleniti voluptatibus odit magni magnam sequi numquam a. Quia a reprehenderit autem, quod architecto suscipit earum, nobis, est necessitatibus hic explicabo?
+    Accusantium provident ut alias vitae quasi tenetur labore maiores veritatis aliquid, culpa minus esse placeat corporis. Neque, eius culpa, amet tempore hic, minus corrupti totam ducimus accusamus dolores quibusdam iste.
+    Atque recusandae aut delectus inventore harum provident voluptatibus, possimus maiores deleniti quae, quaerat illum? Beatae sint nobis molestias expedita corporis repellat delectus ducimus. Atque excepturi, nam vitae ipsa beatae sit.</p>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <h1 class="titleOne">Le Bar Sans Titre</h1>
+                    <p class="paraOne">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero, voluptatem dicta possimus ipsum facere quibusdam. Saepe, ducimus porro? Molestiae quidem maiores laudantium facere ipsa nostrum! Quidem deleniti rem minima!</p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="appear" data-delai="500">
+                        <img src="/img/greg.jpg" class='rounded mx-auto d-block' alt="Responsive image">
+                    </div>    
+                </div>
+            </div>
+        </div>
     </section>
-</div>
-
-
-
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <h1 class="titleOne">Le Bar Sans Titre</h1>
+                    <p class="paraOne">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero, voluptatem dicta possimus ipsum facere quibusdam. Saepe, ducimus porro? Molestiae quidem maiores laudantium facere ipsa nostrum! Quidem deleniti rem minima!</p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="appear" data-delai="500">
+                        <img src="/img/banner.png" class='rounded mx-auto d-block' alt="Responsive image">
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <!-- <main class="home">
