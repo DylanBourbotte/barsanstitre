@@ -14,32 +14,5 @@ require('includes/config.php');
 <body>
 
 
-<div class="banner">
-<div class="bgHeader">
-<div class="logobar">
-  <!-- <img src="../img/logonoir.png" alt=""> -->
-</div>
-<header>
-<div class="toggle-btn">
-  <span class="one"></span>
-  <span class="two"></span>
-</div>
-
-<div class="menuContent">
-  <div class="data">
-    <nav>
-    <ul>
-      <li><a class='leA' href="#about">A propos</a></li>
-      <li><a class='leA' href="#rooftop">Rooftop</a></li>
-      <li><a class='leA' href="#product">Produits</a></li>
-      <li><a class='leA' href="contact.php">Contact</a></li>
-    </ul>
-    </nav>
-  </div>
-</div>
-
-</header>
 
 
-</div> <!-- Bg header -->
-</div>  <!-- Class Banner -->

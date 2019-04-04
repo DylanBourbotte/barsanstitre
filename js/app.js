@@ -87,20 +87,18 @@
 //    document.querySelector(".hamburguer").classList.toggle("close-hamburguer");
 // });
 
-var t1 = new TimelineMax({paused: true});
-
-t1.to(".one", 0.8, {y: 6, rotation: 45, ease:Expo.easeInOut});
-t1.to(".two", 0.8, {y: -6, rotation: -45, ease:Expo.easeInOut, delay: -0.8});
-
-t1.to(".menuContent", 1, {top: "0%", ease: Expo.easeInOut, delay: -1})
-
-t1.staggerFrom(".menuContent ul li", 1, {x: -200, opacity: 0, ease:Expo.easeInOut}, .2);
-
-t1.reverse();
-$(document).on("click", ".toggle-btn", function(){
-t1.reversed(!t1.reversed());//toggles the orientation
-});
-$(document).on("click", "a", function(){
-t1.reversed(!t1.reversed());//sets the orientation to reversed
-});
+$(window).scroll(function(){
+    var scrolledFromTop = $(window).scrollTop() + $(window).height();
+    $(".appear").each(function(){
+      var distanceFromTop = $(this).offset().top;
+      if(scrolledFromTop >= distanceFromTop+100){
+        console.log(this);
+        var delaiAnim = $(this).data("delai");
+        $('.appear').delay(delaiAnim).animate({
+          top:0,
+          opacity:1
+        });
+      }
+    });
+  });
 

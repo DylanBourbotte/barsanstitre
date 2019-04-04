@@ -64,4 +64,3 @@ $calendar .= '<style type="text/css">table tbody tr td, table tbody tr th { text
 <?php
 include_once('includes/footer.php');
 ?>
-
