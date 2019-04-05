@@ -1,7 +1,7 @@
 .container {
     color: white;
     position: relative;
-    margin-top: 10%;
+    padding-top: 10%;
 }
 
 .titlebar {
@@ -33,4 +33,21 @@
 .citation {
     color: white;
     font-size: 30px;
+}
+
+
+path {
+    fill: white;
+}
+
+
+svg {
+    transform: translate(-1px, -1px);
+    overflow: hidden;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.bg-light {
+    background-color: #fff;
 }

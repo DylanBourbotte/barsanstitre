@@ -3,6 +3,8 @@ include('includes/header.php');
 ?>
 <main>
 <section id="home">
+<svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1983.52 228.72"><title>Untitled-1</title><path class="cls-1" d="M.5-.5s407,270,661,222,544-257,623-61,696-161,696-161Z" transform="translate(1.16 1)"/></svg>
+
 <div class="container">
     <div class="row">
     <div class="col-12 text-center titlebar">Le bar sans titre</div>
