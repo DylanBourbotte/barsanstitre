@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700');
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import 'vars';
 @import 'accueil';
 @import 'image';
@@ -19,11 +20,18 @@
 }
 
 body {
-    background: #2c2c2c;
+    background: #2c2c22;
 }
 img{
     max-width: 100%;
     height: auto;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+.laMarge{
+    margin-bottom: 5%;
+}
+
+// section {
+//     background: #2c2c2c;
+// }
 

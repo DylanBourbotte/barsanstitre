@@ -1,10 +1,24 @@
 .btn-orange {
     background: rgb(240, 108, 0);
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    margin-top:15px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    &:hover{
+        background: rgb(182, 88, 11);
+        color:rgb(182, 182, 181);
+    }
+    
 }
 .blanc  {
     color: white;
-    font-family: 'Patua One', cursive;
+    font-family:"Montserrat", sans-serif;
+    font-size:1.5em;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+
 .centerTxt{
     display: flex;
     justify-content: center;
