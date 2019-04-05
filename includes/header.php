@@ -13,20 +13,20 @@ require('includes/config.php');
 </head>
 <body>
 <header class="main-header">
-<nav class="navbar navbar-expand-lg navbar-light bg">
+<nav class="navbar navbar-expand-lg navbar-light bg text-center">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav text-center">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Accueil</a>
+        <a class="nav-link" href="index.php">Accueil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Rooftop</a>
+        <a class="nav-link" href="#rooftop">Rooftop</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Produit</a>
+        <a class="nav-link" href="#product">Produits</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="reservation.php">Reservation</a>
