@@ -47,7 +47,7 @@
                     <div class="laMarge">
                         <div class="md-form mb-0">
                             <label for="subject" class="blanc">Sujet</label>
-                            <input type="text" id="subject" name="subject" alt="Votre sujet" class="form-control">
+                            <input type="text" id="subject" name="subject" placeholder="Nom de votre sujet" class="form-control">
                         </div>    
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                     <div class="laMarge">
                         <div class="md-form">
                             <label class="blanc" for="message">Votre message</label>
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <textarea type="text" id="message" name="message" rows="2" placeholder="Ecrivez votre message ici" class="form-control md-textarea"></textarea>
                         </div>
                     </div>
 
@@ -83,7 +83,8 @@
     <!--Grid column-->
 </div>
 </div>
-<div class="col text-center">
+<div class="col-12 text-center">
+    <div class="margeHaut">
         <ul class="list-unstyled mb-0">
             <li><i class="fas fa-map-marker-alt fa-2x"></i>
                 <p class="blanc border1">Le bar sans titre rooftop</p>
@@ -97,6 +98,7 @@
                 <p class="blanc border1">bar sans titre .fr</p>
             </li>
         </ul>
+        </div>
     </div>
 
 </section>
