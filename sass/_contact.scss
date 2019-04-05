@@ -51,9 +51,9 @@
     transform:scale(0);
     z-index:1;
     &.one {
-      transform:scaleY(.01) scaleX(0);
-      animation:unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-      .modal-background {
+    transform:scaleY(.01) scaleX(0);
+    animation:unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+    .modal-background {
         .modal {
           transform:scale(0);
           animation: zoomIn .5s .8s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
@@ -72,7 +72,7 @@
     &.two {
       transform:scale(1);
       .modal-background {
-        background:rgba(0,0,0,.0);
+        background:rgba(30, 92, 11, 0.6);
         animation: fadeIn .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
         .modal {
           opacity:0;
@@ -99,7 +99,7 @@
       z-index:0;
       transform:scale(1);
       .modal-background {
-        background:rgba(0,0,0,.6);
+        background:rgbargba(30, 92, 11, 0.6);
         .modal {
           animation: moveUp .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
         }
@@ -123,7 +123,7 @@
       z-index:0;
       transform:scale(1);
       .modal-background {
-        background:rgba(0,0,0,.7);
+        background:rgba(30, 92, 11, 0.6);
         .modal {
           animation: blowUpModal .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
         }
@@ -146,7 +146,7 @@
     &.five {
       transform:scale(1);
       .modal-background {
-        background:rgba(0,0,0,.0);
+        background:rgba(30, 92, 11, 0.6);
         animation: fadeIn .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
         .modal {
           transform:translateX(-1500px);
@@ -166,10 +166,10 @@
     &.six {
       transform:scale(1);
       .modal-background {
-        background:rgba(0,0,0,.0);
+        background: green;
         animation: fadeIn .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
         .modal {
-          background-color:transparent;
+          background-color:green;
           animation: modalFadeIn .5s .8s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
           h2,p {
             opacity:0;
@@ -181,6 +181,12 @@
               animation: sketchIn .5s .3s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
             }
           }
+        }
+        .success {
+          background-color: #1e8809;
+        }
+        .error {
+          background-color: red;
         }
       }
       &.out {
@@ -238,16 +244,18 @@
     }
     .modal-background {
       display:table-cell;
-      background:rgba(0,0,0,.8);
+      background:rgba(30, 92, 11, 0.6);
       text-align:center;
       vertical-align:middle;
       .modal {
-        background:white;
+        background:rgb(16, 94, 14);
         padding:50px;
         display:inline-block;
         border-radius:3px;
         font-weight:300;
         position:relative;
+        height: 300px;
+        width: 400px;
         h2 {
           font-size:25px;
           line-height:25px;
@@ -258,14 +266,15 @@
           line-height:22px;
         }
         .modal-svg {
-          position:absolute;
-          top:0;
-          left:0;
-          height:100%;
-          width:100%;
-          border-radius:3px;
+          // position:absolute;
+          // top:0;
+          // left:0;
+          // height:100%;
+          // width:100%;
+          // border-radius:3px;
+          // background-color: green;
           rect {
-            stroke: #fff;
+            stroke: green;
             stroke-width: 2px;
             stroke-dasharray: 778;
             stroke-dashoffset: 778;
@@ -276,9 +285,9 @@
   }
   
   .content {
-    min-height:100%;
-    height:100%;
-    background:white;
+    min-height:20%;
+    height:30%;
+    background:rgb(5, 95, 17);
     position:relative;
     z-index:0;
     h1 {

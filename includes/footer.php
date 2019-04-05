@@ -26,14 +26,20 @@
 <script src='./js/app.js'></script>
 <script>
 console.log(window.bddstatus);
-if(window.bddstatus) {
-    var buttonId = "six";
-    $('#modal-container').removeAttr('class').addClass(buttonId).addClass("success");
+var buttonId = "six";
+
+if(window.bddstatus === 1) {
+    $('#modal-container').removeAttr('class').addClass(buttonId);
+    $('.success').show();
+    $('.error').hide();
+    $('body').addClass('modal-active');
+} else if (window.bddstatus === 0){
+    $('#modal-container').removeAttr('class').addClass(buttonId);
+    $('.success').hide();
+    $('.error').show();
     $('body').addClass('modal-active');
 } else {
-    var buttonId = "six";
-    $('#modal-container').removeAttr('class').addClass(buttonId).addClass("error");
-    $('body').addClass('modal-active');
+    $('body').removeClass('modal-active');
 }
 
 $('#modal-container').click(function(){

@@ -34,7 +34,7 @@ $response->execute();
 ?>
     <div class="box">
         <div class="box-header">
-            <h3 class="box-title">Contact</h3>
+            <h3 class="box-title">Demande de contact</h3>
         </div>
         <!-- /.box-header -->
         <div class="box-body">
@@ -45,7 +45,7 @@ $response->execute();
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <table id="example2" class="table table-bordered table-hover dataTable" role="grid"
+                        <table id="example2" class="table table-bordered table-striped table-responsive table-hover dataTable" role="grid"
                             aria-describedby="example2_info">
                             <thead>
                                 <tr role="row">

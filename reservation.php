@@ -1,8 +1,7 @@
 <?php
 include('includes/header.php');
 $d1 = new DateTime('NOW', new DateTimeZone('Europe/Paris'));
-
-  
+$retour = 2;
 ?>
 
 <div class="container">
@@ -50,14 +49,14 @@ $d1 = new DateTime('NOW', new DateTimeZone('Europe/Paris'));
                 <div class="form-group">
                     <label class="blanc" for="nombre">Nombre de personne</label>
                     <input id="nbre-personne" type="number" required class="form-control" name="nombre-personne"
-                        placeholder="nombre de paersonne">
+                        placeholder="nombre de personne">
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-6">
-                <div class="form-group">el>
+                <div class="form-group">
                     <label class="blanc" for="description">déscription</label>
                     <textarea class="form-control" rows="5" name="description"></textarea>
                 </div>
@@ -72,12 +71,20 @@ $d1 = new DateTime('NOW', new DateTimeZone('Europe/Paris'));
 </div>
 <div id="modal-container">
     <div class="modal-background">
-        <div class="modal">
-            <h2>I'm a Modal</h2>
-            <p>Hear me roar.</p>
+        <div class="modal success">
+            <h2>Felicitations votre résérvation est enregistrée</h2>
+            <p>Nous reprendrons contact avec vous au plus vite</p>
             <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                 preserveAspectRatio="none">
-                <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
+                <rect x="0" y="0" fill="none" width="400" height="300" rx="3" ry="3"></rect>
+            </svg>
+        </div>
+        <div class="modal error">
+            <h2>Désolé votre résérvation n'a pas été enregistrée</h2>
+            <p>Merci de réesayer ultérieurement</p>
+            <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                preserveAspectRatio="none">
+                <rect x="0" y="0" fill="none" width="400" height="300" rx="3" ry="3"></rect>
             </svg>
         </div>
     </div>
@@ -106,6 +113,9 @@ if(isset($_POST['name']) && isset($_POST['email']) && $_POST['start-time'] && $_
     $description = htmlspecialchars($_POST['description']);
     
     $retour = $req->execute();
+    if ($retour === false) {
+        $retour = 0;
+    }
     
 }
 ?>
