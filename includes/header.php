@@ -9,7 +9,7 @@ require('includes/config.php');
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="img/logonoir.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-    <title>Le bar sans titre - ROOFTOP</title>
+    <title>BAR SANS TITRE - ROOFTOP BETHUNOIS</title>
 </head>
 <body>
 <header>
@@ -28,6 +28,30 @@ require('includes/config.php');
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<header class="main-header">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Rooftop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Produit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reservation.php">Reservation</a>
       </li>
     </ul>
   </div>
