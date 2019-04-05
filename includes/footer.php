@@ -24,5 +24,22 @@
 <!-- Nos fichiers CSS / JS -->
 <link rel="stylesheet" href="./css/app.min.css">
 <script src='./js/app.js'></script>
+<script>
+console.log(window.bddstatus);
+if(window.bddstatus) {
+    var buttonId = "six";
+    $('#modal-container').removeAttr('class').addClass(buttonId).addClass("success");
+    $('body').addClass('modal-active');
+} else {
+    var buttonId = "six";
+    $('#modal-container').removeAttr('class').addClass(buttonId).addClass("error");
+    $('body').addClass('modal-active');
+}
+
+$('#modal-container').click(function(){
+    $(this).addClass('out');
+    $('body').removeClass('modal-active');
+});
+</script>
 </body>
 </html>
