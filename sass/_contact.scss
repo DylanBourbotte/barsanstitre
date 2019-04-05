@@ -24,7 +24,6 @@
     justify-content: center;
     margin-top:5%;
 }
-<<<<<<< HEAD
 .container{
     margin-bottom: 0%;
     margin-top: -10%;
@@ -35,14 +34,11 @@
                 color: rgb(202, 202, 202);
             } 
         }
-    input{
-        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-=======
-
-* {
-    box-sizing:border-box;
-  }
-  
+        input{
+            box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        }
+    }
+}
   html,body {
     min-height:100%;
     height:100%;
@@ -659,14 +655,8 @@
     99.9% {
       opacity:0;
       transform:scale(1);
->>>>>>> 507474d8c84ccaf3363dd3fdacf0f22fb84fc45e
     }
     100% {
       transform:scale(0);
     }
-<<<<<<< HEAD
-}
-}
-=======
   }
->>>>>>> 507474d8c84ccaf3363dd3fdacf0f22fb84fc45e
