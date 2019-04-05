@@ -18,20 +18,22 @@
 
                 <!--Grid column-->
                 <div class="col-md-6">
-                    <div class="md-form mb-0">
-                        <label for="name" class="blanc">Votre nom</label>
-                        <input type="text" id="name" name="name" placeholder="Votre nom" class="form-control">
-                        
+                    <div class="laMarge">
+                        <div class="md-form mb-0">
+                            <label for="name" class="blanc">Votre nom</label>
+                            <input type="text" id="name" name="name" placeholder="Votre nom" class="form-control">
+                        </div>
                     </div>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
                 <div class="col-md-6">
-                    <div class="md-form mb-0">
-                        <label for="email" class="blanc">Votre email</label>
-                        <input type="text" id="email" name="email" placeholder="Exemple@gmail.com" class="form-control">
-                        
+                    <div class="laMarge">
+                        <div class="md-form mb-0">
+                            <label for="email" class="blanc">Votre email</label>
+                            <input type="text" id="email" name="email" placeholder="Exemple@gmail.com" class="form-control">
+                        </div>
                     </div>
                 </div>
                 <!--Grid column-->
@@ -42,10 +44,11 @@
             <!--Grid row-->
             <div class="row">
                 <div class="col-md-12">
-                    <div class="md-form mb-0">
-                        <label for="subject" class="blanc">Sujet</label>
-                        <input type="text" id="subject" name="subject" alt="Votre sujet" class="form-control">
-                        
+                    <div class="laMarge">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="blanc">Sujet</label>
+                            <input type="text" id="subject" name="subject" alt="Votre sujet" class="form-control">
+                        </div>    
                     </div>
                 </div>
             </div>
@@ -56,11 +59,11 @@
 
                 <!--Grid column-->
                 <div class="col-md-12">
-
-                    <div class="md-form">
-                        <label class="blanc" for="message">Votre message</label>
-                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                        
+                    <div class="laMarge">
+                        <div class="md-form">
+                            <label class="blanc" for="message">Votre message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
                     </div>
 
                 </div>
