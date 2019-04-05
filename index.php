@@ -33,6 +33,9 @@ include('includes/header.php');
     </div>
 </div>
 </div>
+<div class="container-fluid citation">
+<div class="col-12 text-center"><cite>"La rarete fait l'exclusivité"</cite></div>
+</div>
 
 
 </section>
