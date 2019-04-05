@@ -4,7 +4,7 @@
 <section class="mb-4">
 
 <!--Section heading-->
-<h2 class="blanc centerTxt" class="h1-responsive font-weight-bold text-center my-4">Contact </h2>
+<h2 class="blanc centerTxt" class="h1-responsive font-weight-bold text-center my-4"> Contact </h2>
 <!--Section description-->
 <!-- <p class="blanc centerTxt" class="text-center w-responsive mx-auto mb-5">si vous avez des  questions? .</p> -->
 
@@ -31,7 +31,7 @@
                 <div class="col-md-6">
                     <div class="laMarge">
                         <div class="md-form mb-0">
-                            <label for="email" class="blanc">Votre email</label>
+                            <label for="email" class="blanc"> Votre email</label>
                             <input type="text" id="email" name="email" placeholder="Exemple@gmail.com" class="form-control">
                         </div>
                     </div>
