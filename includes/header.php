@@ -19,7 +19,7 @@ require('includes/config.php');
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav text-center">
-      <li class="nav-item active">
+      <li class="nav-item active text-center">
         <a class="nav-link" href="index.php">Accueil</a>
       </li>
       <li class="nav-item">
