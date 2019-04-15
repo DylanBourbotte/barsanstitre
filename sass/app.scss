@@ -19,19 +19,17 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     background: #2c2c22;
 }
 img{
     max-width: 100%;
     height: auto;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    // box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .laMarge{
     margin-bottom: 5%;
 }
-
-// section {
-//     background: #2c2c2c;
-// }
-
+.margeHaut{
+    margin-bottom: 3%;
+}

@@ -12,13 +12,13 @@ try
 }
 catch (Exception $e)
 {
-  die('Erreur : ' . $e->getMessage());
+  die('Erreur : ' . $e->getMessage());          
 }
 
 $footernav = [
     "mention.php" => "Mentions légales",
     "https://fr-fr.facebook.com/lebarsanstitre/" => "Page facebook",
-    "contact.php" => "Nous contactez",
+    "contact.php" => "Nous contactez"
 ];
 
 $headernav = [
