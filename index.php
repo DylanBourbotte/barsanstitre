@@ -39,6 +39,11 @@ include('includes/header.php');
 <div class="col-12 text-center"><cite>"La rareté fait l'exclusivitée"</cite></div>
 </div>
 </section>
+
+<section class="rooftop" id='rooftop'>
+
+
+</section>
 </main>
 
 <?php 
