@@ -33,3 +33,9 @@ img{
 .margeHaut{
     margin-bottom: 3%;
 }
+h2{
+    font-size:2.5em;
+    &:hover{
+        color: rgb(202, 202, 202);
+    } 
+}
