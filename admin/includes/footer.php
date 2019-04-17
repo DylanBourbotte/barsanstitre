@@ -1,7 +1,7 @@
 <!-- jQuery 3 -->
-<script src="./admin/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="./admin/bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button);
@@ -10,7 +10,7 @@
 <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- Morris.js charts -->
 <script src="./bower_components/raphael/raphael.min.js"></script>
-<script src="./bower_components/morris.js/morris.min.js"></script>
+<!-- <script src="./bower_components/morris.js/morris.min.js"></script> -->
 <!-- Sparkline -->
 <script src="./bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
 <!-- jvectormap -->
@@ -31,9 +31,22 @@
 <script src="./bower_components/fastclick/lib/fastclick.js"></script>
 <!-- AdminLTE App -->
 <script src="./dist/js/adminlte.min.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="./dist/js/pages/dashboard.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="./dist/js/demo.js"></script>
-</body>
-</html>
+<script>
+
+function MyUploadAdapterPlugin( editor ) {
+    editor.plugins.get( 'FileRepository' ).createUploadAdapter = function( loader ) {
+        // ...
+    };
+}
+
+var allEditors = document.querySelectorAll('.editor');
+for (var i = 0; i < allEditors.length; ++i) {
+  ClassicEditor.create(allEditors[i], {
+      toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote' ],
+      extraPlugins: [ MyUploadAdapterPlugin ],
+  });
+
+}
+
+
+</script>

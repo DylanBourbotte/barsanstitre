@@ -25,16 +25,14 @@ $retour = 2;
                 <div class="form-group">
                     <label class="blanc" for="date">Date de debut de l'évenement</label>
                     <input type="datetime-local" class="form-control" id="meeting-start_time" name="start-time"
-                        value="<?= $d1->format('Y-m-d\T18:00:00'); ?>" min="<?= $d1->format('Y-m-d\T18:00:00'); ?>"
-                        max="<?= $d1->format('Y-m-d\T21:00:00'); ?>">
+                        value="<?= $d1->format('Y-m-d\T18:00:00'); ?>">
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="form-group">
                     <label class="blanc" for="date">Date de fin de l'évenement</label>
                     <input type="datetime-local" class="form-control" id="meeting-end_time" name="end-time"
-                        value="<?= $d1->format('Y-m-d\T00:00:00'); ?>" min="<?= $d1->format('Y-m-d\T00:00:00'); ?>"
-                        max="<?= $d1->format('Y-m-d\T01:00:00'); ?>">
+                        value="<?= $d1->format('Y-m-d\T00:00:00'); ?>">
                 </div>
             </div>
             <div class="col-md-12">
