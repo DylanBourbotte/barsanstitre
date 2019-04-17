@@ -15,6 +15,26 @@ catch (Exception $e)
   die('Erreur : ' . $e->getMessage());          
 }
 
+$config = $bdd->prepare("SELECT * FROM config");
+$config->execute();
+
+//var_dump($config);
+
+$textes = $config->fetchAll();
+
+function get_text($clef, $textes) {
+  foreach ($textes as $text ) {
+              
+      if($text['clef'] === $clef) {
+
+          return $text['valeur'];
+      }
+      else {
+        return 'Le texte n\'a pas été trouvé en base de donnée';
+      }
+  }
+}
+
 $footernav = [
     "mention.php" => "Mentions légales",
     "https://fr-fr.facebook.com/lebarsanstitre/" => "Page facebook",
