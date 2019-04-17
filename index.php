@@ -7,7 +7,7 @@ include('includes/header.php');
 
 <div class="container">
     <div class="row">
-    <div class="col-12 text-center titlebar">Le bar sans titre</div>
+    <div class="col-12 text-center titlebar"> <span class=leHover> Le bar sans titre</span></div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 accueil">
             <span class="test">Lorem</span> ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, eum voluptates autem doloremque velit deserunt magnam voluptate, minus maxime modi odit. Quod nesciunt excepturi minus quasi deserunt? Hic, ut dolorum.
             Molestiae accusantium quia, esse, id <span class="test">deserunt similique</span> provident maiores consequuntur rem repudiandae minus magnam impedit consequatur? Modi ab ducimus voluptatem ipsum totam blanditiis, a saepe facere est inventore iure velit?
