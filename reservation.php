@@ -5,26 +5,23 @@ $retour = 2;
 ?>
 
 <div class="container">
-    <h1 class="blanc">Ajouter un évènement</h1>
-    <form action="" method="post" class="form">
-        <div class="row">
-            <div class="col-sm-6">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Ajouter un évènement</h2>
+        <form action="" method="post" class="form"> 
+        <div class="row justify-content-md-center">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label class="blanc" for="name">Nom</label>
                     <input id="name" type="text" required class="form-control" name="name" placeholder="Votre nom">
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label class="blanc" for="email">Votre mail</label>
                     <input id="email" type="email" required class="form-control" name="email" placeholder="Votre email">
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label class="blanc" for="date">Date de debut de l'évenement</label>
                     <input type="datetime-local" class="form-control" id="meeting-start_time" name="start-time"
@@ -32,9 +29,7 @@ $retour = 2;
                         max="<?= $d1->format('Y-m-d\T21:00:00'); ?>">
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label class="blanc" for="date">Date de fin de l'évenement</label>
                     <input type="datetime-local" class="form-control" id="meeting-end_time" name="end-time"
@@ -42,30 +37,25 @@ $retour = 2;
                         max="<?= $d1->format('Y-m-d\T01:00:00'); ?>">
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label class="blanc" for="nombre">Nombre de personne</label>
                     <input id="nbre-personne" type="number" required class="form-control" name="nombre-personne"
                         placeholder="nombre de personne">
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label class="blanc" for="description">déscription</label>
                     <textarea class="form-control" rows="5" name="description"></textarea>
                 </div>
             </div>
-        </div>
+            <div class="col-md-12">
         <div class="form-group">
-            <input type="submit" class="btn btn-primary">
+            <input type="submit" class="btn btn-block btn-orange">
         </div>
-
+    </div>
+</div>
 
     </form>
 </div>
