@@ -13,6 +13,7 @@
 @import "contact";
 @import 'aPropos';
 @import 'rooftop';
+@import 'produit';
 
 * {
     margin: 0;
@@ -45,4 +46,7 @@ h2{
     &:hover{
         color: rgb(202, 202, 202);
     } 
+}
+#navbarNav{
+    z-index: 1;
 }
