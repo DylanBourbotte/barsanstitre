@@ -15,14 +15,20 @@ foreach ($textes as $key => $value) {
         <h3 class="panel-title"><?= $value['clef'] ?></h3>
     </div>
     <div class="panel-body">
-        <textarea name="content" class="editor" id="c<?= $key ?>"><?= $value['valeur'] ?></textarea>
+        <form class="ck-form" method="POST" action="">
+            <input type="hidden" name="id" value="<?= $value['id'] ?>">
+            <textarea name="content" class="editor" id="c<?= $key ?>"><?= $value['valeur'] ?></textarea>
+            <button type="button" type="submit" name="submit" class="btn  btn-ckeditor btn-primary btn-lg btn-block">Sauvegarder</button>
+        </form>
     </div>
     </div>
 </div>
 
 <?php
 }
-
+if($_POST) {
+    var_dump($_POST);
+}
 
 
 

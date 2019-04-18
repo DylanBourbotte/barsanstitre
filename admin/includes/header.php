@@ -44,7 +44,6 @@ $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-  <script src="https://cdn.ckeditor.com/ckeditor5/12.0.0/classic/ckeditor.js"></script>
 
 </head>
 <body class="hold-transition skin-green sidebar-mini">
@@ -98,13 +97,13 @@ $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
         foreach ($AdminMenu as $key => $value):
           ?>
           <li class="treeview <?=  ($current_page === $key) ? 'active' : '' ?>">
-                <a href="<?= $value[2]?>">
-                  <i class="fa  <?=$value[0]?>"></i> <span> <?=$value[1]?></span>
-                  <span class="pull-right-container">
-                    <i class="fa fa-angle-left pull-right"></i>
-                  </span>
-                </a>
-              </li>
+            <a href="<?= $value[2]?>">
+              <i class="fa  <?=$value[0]?>"></i> <span> <?=$value[1]?></span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+          </li>
         <?php
         endforeach;
         ?>
