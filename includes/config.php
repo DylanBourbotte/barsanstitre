@@ -22,16 +22,15 @@ $config->execute();
 
 $textes = $config->fetchAll();
 
+
 function get_text($clef, $textes) {
   foreach ($textes as $text ) {
-              
+      // print_r($text);
       if($text['clef'] === $clef) {
 
           return $text['valeur'];
       }
-      else {
-        return 'Le texte n\'a pas été trouvé en base de donnée';
-      }
+     
   }
 }
 
