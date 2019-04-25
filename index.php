@@ -46,8 +46,19 @@ include('includes/header.php');
         Hic cumque maiores eos odit? Repudiandae facere deserunt commodi sequi veritatis eligendi doloribus facilis illum unde! Perspiciatis maiores quidem fugiat beatae eveniet, blanditiis, porro voluptatem dolores ipsa adipisci qui quaerat?
         Dolorum sint esse blanditiis, tenetur et nisi, qui autem minus neque ut eligendi beatae similique repudiandae iure inventore ipsam dolores eos nulla ullam reiciendis accusamus dignissimos! Quaerat a obcaecati illo.
         Fugit eligendi beatae earum animi, aliquam modi odio tempora est distinctio nihil fuga necessitatibus esse facere. Assumenda, molestias! Quo iure magni vitae esse. Maxime harum vitae nihil ut eius mollitia.</div>
-        <div class='img_rooftop'></div>
+        <div class='img_rooftop'>
     </div>
+</div>
+
+</section>
+
+<div class="container product" id='product'>
+    <div class="row">
+        <div class="col-12 text-center titlebar">Nos produits.</div>
+        <div class="col-12 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium saepe laudantium sed, eos sapiente voluptas mollitia aperiam, minima, odit necessitatibus modi minus odio deserunt cum optio quos quidem. Ex, quasi.
+        Hic cumque maiores eos odit? Repudiandae facere deserunt commodi sequi veritatis eligendi doloribus facilis illum unde! Perspiciatis maiores quidem fugiat beatae eveniet, blanditiis, porro voluptatem dolores ipsa adipisci qui quaerat?
+        Dolorum sint esse blanditiis, tenetur et nisi, qui autem minus neque ut eligendi beatae similique repudiandae iure inventore ipsam dolores eos nulla ullam reiciendis accusamus dignissimos! Quaerat a obcaecati illo.
+        Fugit eligendi beatae earum animi, aliquam modi odio tempora est distinctio nihil fuga necessitatibus esse facere. Assumenda, molestias! Quo iure magni vitae esse. Maxime harum vitae nihil ut eius mollitia.</div>
 </div>
 
 </section>
