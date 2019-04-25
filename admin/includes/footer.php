@@ -8,34 +8,15 @@
 </script>
 <!-- Bootstrap 3.3.7 -->
 <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- Morris.js charts -->
-<script src="./bower_components/raphael/raphael.min.js"></script>
-<!-- <script src="./bower_components/morris.js/morris.min.js"></script> -->
-<!-- Sparkline -->
-<script src="./bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
-<!-- jvectormap -->
-<script src="./plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="./plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="./bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
-<!-- daterangepicker -->
-<script src="./bower_components/moment/min/moment.min.js"></script>
-<script src="./bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
-<!-- datepicker -->
-<script src="./bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<!-- Bootstrap WYSIHTML5 -->
-<script src="./plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-<!-- Slimscroll -->
-<script src="./bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-<!-- FastClick -->
-<script src="./bower_components/fastclick/lib/fastclick.js"></script>
-<!-- AdminLTE App -->
-<script src="./dist/js/adminlte.min.js"></script>
+<!-- CKEDITOR 5 -->
+<script src="https://cdn.ckeditor.com/ckeditor5/12.0.0/classic/ckeditor.js"></script>
+
+
 <script>
 
 function MyUploadAdapterPlugin( editor ) {
     editor.plugins.get( 'FileRepository' ).createUploadAdapter = function( loader ) {
-        // ...
+       
     };
 }
 
@@ -43,10 +24,27 @@ var allEditors = document.querySelectorAll('.editor');
 for (var i = 0; i < allEditors.length; ++i) {
   ClassicEditor.create(allEditors[i], {
       toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote' ],
+      //plugins: [ Bold, Italic, Underline, Strikethrough, Code, Subscript, Superscript ],
       extraPlugins: [ MyUploadAdapterPlugin ],
-  });
+  }).then( editor => {
+      console.log(editor.ui.view.toolbar.element );
+    } )
+    .catch( error => {
+        console.error( error );
+    } );;
 
 }
 
+$('.btn-ckeditor').on('click', function(e) {
+
+var ckcontent = $(e.target).closest('ck-content').find('.ck-content');
+var textarea = $(e.target).closest('ck-form').find('ck-content');
+console.log(textarea);
+console.log(ckcontent);
+  // console.log(this.closest('.ck-content').html);
+  // content = $('.ck-editor__editable_inline').html;
+  // console.log(content);
+
+})
 
 </script>
