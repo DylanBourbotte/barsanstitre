@@ -51,13 +51,7 @@ include('includes/header.php');
 
 </section>
 
-<<<<<<< HEAD
-<section class='product' id='product'>
-
-<div class="container product">
-=======
 <div class="container product" id='product'>
->>>>>>> 15ad3e24c1cced1e21eb3c155fef3105db830d61
     <div class="row">
         <div class="col-12 text-center titlebar">Nos produits.</div>
         <div class="col-12 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium saepe laudantium sed, eos sapiente voluptas mollitia aperiam, minima, odit necessitatibus modi minus odio deserunt cum optio quos quidem. Ex, quasi.
