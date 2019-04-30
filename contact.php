@@ -83,11 +83,11 @@
     <!--Grid column-->
 </div>
 </div>
-<div class="col-12 text-center">
+<div class="col-12 text-left">
     <div class="margeHaut">
         <ul class="list-unstyled mb-0">
             <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                <p class="blanc border1">Le bar sans titre rooftop</p>
+                <p class="blanc border1 ">Le bar sans titre rooftop</p>
             </li>
 
             <li><i class="fas fa-phone mt-4 fa-2x"></i>
