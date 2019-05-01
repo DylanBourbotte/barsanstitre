@@ -9,7 +9,8 @@
 <body>
     <form action="secret.php" method="post">
         <p>
-        <input type="password" name="mot_de_passe">
+        <input type="text" name="nom" placeholder='nom'>
+        <input type="password" name="mot_de_passe" placeholder='Mot de passe'>
         <input type="submit" value="Valider">
         </p>
     </form>

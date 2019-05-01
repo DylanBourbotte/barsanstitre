@@ -60,13 +60,13 @@ $response->execute();
                                     <th class="sorting" tabindex="0" aria-controls="Email" rowspan="1" colspan="1"
                                         aria-label="Engine version: activate to sort column ascending">Email</th>
                                     <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
-                                        aria-label="Engine version: activate to sort column ascending">heure de début</th>
+                                        aria-label="Engine version: activate to sort column ascending">Heure de début</th>
                                     <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
-                                        aria-label="CSS grade: activate to sort column ascending">heure de fin</th>
+                                        aria-label="CSS grade: activate to sort column ascending">Heure de fin</th>
 									<th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
-                                        aria-label="CSS grade: activate to sort column ascending">nombre de personne</th>
+                                        aria-label="CSS grade: activate to sort column ascending">Personne</th>
 									<th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
-                                        aria-label="CSS grade: activate to sort column ascending">description</th>	
+                                        aria-label="CSS grade: activate to sort column ascending">Message</th>	
                                 </tr>
                             </thead>
                             <tbody>
@@ -92,13 +92,13 @@ $response->execute();
                                         aria-label="Engine version: activate to sort column ascending">Email</th>
 
                                     <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
-                                        aria-label="Engine version: activate to sort column ascending">heure de début</th>
+                                        aria-label="Engine version: activate to sort column ascending">Heure de début</th>
                                     <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
-                                        aria-label="CSS grade: activate to sort column ascending">heure de fin</th>
+                                        aria-label="CSS grade: activate to sort column ascending">Heure de fin</th>
 									<th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
-                                        aria-label="CSS grade: activate to sort column ascending">nombre de personne</th>
+                                        aria-label="CSS grade: activate to sort column ascending">Personne</th>
 									<th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1"
-                                        aria-label="CSS grade: activate to sort column ascending">déscription</th>
+                                        aria-label="CSS grade: activate to sort column ascending">Message</th>
                                 </tr>
                             </tfoot>
                         </table>
@@ -106,14 +106,14 @@ $response->execute();
                 </div>
                 <div class="row">
                     <div class="col-sm-5">
-                        <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Showing <?= $premierarticleafficher + 1 ?> to <?= (($premierarticleafficher + $reservationparpage) > $totaldesreservation ) ? $totaldesreservation : $premierarticleafficher + $reservationparpage ?>
+                        <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Montrer <?= $premierarticleafficher + 1 ?> et <?= (($premierarticleafficher + $reservationparpage) > $totaldesreservation ) ? $totaldesreservation : $premierarticleafficher + $reservationparpage ?>
                             of <?= $totaldesreservation ?> </div>
                     </div>
                     <div class="col-sm-7">
                         <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
                             <ul class="pagination">
                                 <li class="paginate_button previous <?= ($page == 1) ? 'disabled'  : '' ?>" id="example2_previous"><a href="?page=<?= ($page == 1) ? $page : $page - 1 ?>"
-                                        aria-controls="example2" data-dt-idx="0" tabindex="0">Previous</a></li>
+                                        aria-controls="example2" data-dt-idx="0" tabindex="0">Précédente</a></li>
                                 <?php for ($i=1; $i <= $nombredepage; $i++) { 
                                     echo ' <li class="paginate_button active"><a href="?page='.$i.'" aria-controls="example2" data-dt-idx="'.$i.'"
                                     tabindex="0">'.$i.'</a></li>';
@@ -122,7 +122,7 @@ $response->execute();
                                
                                 
                                 <li class="paginate_button next <?= ($nombredepage == $page) ? 'disabled'  : '' ?>" id="example2_next"><a href="?page=<?= ($nombredepage == $page) ? $page : $page + 1 ?>" aria-controls="example2"
-                                        data-dt-idx="7" tabindex="0">Next</a></li>
+                                        data-dt-idx="7" tabindex="0">Suivante</a></li>
                             </ul>
                         </div>
                     </div>
