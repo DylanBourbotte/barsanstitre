@@ -9,6 +9,8 @@ $response->execute();
 $textes = $response->fetchAll();
 foreach ($textes as $key => $value) {
 ?>
+
+
 <div class="col-md-6">
     <div class="panel panel-default">
     <div class="panel-heading">
@@ -18,31 +20,35 @@ foreach ($textes as $key => $value) {
         <form class="ck-form" method="POST" action="">
             <input type="hidden" name="id" value="<?= $value['id'] ?>">
             <textarea name="content" class="editor" id="c<?= $key ?>"><?= $value['valeur'] ?></textarea>
-            <button type="button" type="submit" name="submit" class="btn  btn-ckeditor btn-primary btn-lg btn-block">Sauvegarder</button>
+            <input type="submit" name="submit" class="btn  btn-ckeditor btn-primary btn-lg btn-block" value="Sauvegarder">
         </form>
     </div>
     </div>
 </div>
 
-<?php
+
+<?php } ?>
+
+<?php 
+if(isset($_POST['content']) && isset($_POST['id'])){
+    $poste = $_POST['content'];
+    $id = $_POST['id'];
+    //UPDATE `config` SET `valeur` = NULL WHERE `config`.`id` = 3;
+
+    $insert = $bdd->prepare('UPDATE config SET valeur = :poste WHERE id = :id ');
+    $insert->bindValue(':poste', $poste);
+    $insert->bindValue(':id', $id);
+    $insert->execute();
+    //header('Location: textes.php');
+    // echo '<p class="alert alert-success">Mise à jour Ok FDP</span>';
 }
-if($_POST) {
-    var_dump($_POST);
-}
-
-
-
-
-
-
 
 
 
 
 ?>
-    
-    <div class="control-sidebar-bg"></div>
-</div>
-<!-- ./wrapper -->
 
-<?php include('includes/footer.php'); ?>
+
+<?php
+include('includes/footer.php'); 
+?>
