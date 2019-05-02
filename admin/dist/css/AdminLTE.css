@@ -498,13 +498,14 @@ a:focus {
 }
 .sidebar-menu {
   list-style: none;
-  margin: 0;
+  margin: 500px;
   padding: 0;
 }
 .sidebar-menu > li {
   position: relative;
   margin: 0;
   padding: 0;
+  margin-top: 5%;
 }
 .sidebar-menu > li > a {
   padding: 12px 5px 12px 15px;
@@ -525,6 +526,8 @@ a:focus {
 .sidebar-menu li.header {
   padding: 10px 25px 10px 15px;
   font-size: 12px;
+  position: relative;
+  margin-top: 150px;
 }
 .sidebar-menu li > a > .fa-angle-left,
 .sidebar-menu li > a > .pull-right-container > .fa-angle-left {

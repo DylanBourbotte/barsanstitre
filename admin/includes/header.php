@@ -51,18 +51,10 @@ $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
-      <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>Bar</b></span>
-      <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Le Bar </b>sans titre</span>
-    </a>
+    <a href="" class="logo"><span class="logo-xl">Administration</span></a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
-      </a>
     </nav>
   </header>
   <!-- Left side column. contains the logo and sidebar -->
@@ -80,7 +72,7 @@ $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
         </div>
       </div>
       <!-- search form -->
-      <form action="#" method="get" class="sidebar-form">
+      <!-- <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
           <input type="text" name="q" class="form-control" placeholder="Recherche...">
           <span class="input-group-btn">
@@ -88,27 +80,27 @@ $current_page =  str_replace('.php', '', basename($_SERVER['PHP_SELF']));
                 </button>
               </span>
         </div>
-      </form>
+      </form> -->
       <!-- /.search form -->
       <!-- sidebar menu: : style cang/user2-160x160. be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
-        <li class="header">MAIN NAVIGATION</li>
+        <li class="header">Administration Menu</li>
         <?php
         foreach ($AdminMenu as $key => $value):
           ?>
           <li class="treeview <?=  ($current_page === $key) ? 'active' : '' ?>">
             <a href="<?= $value[2]?>">
               <i class="fa  <?=$value[0]?>"></i> <span> <?=$value[1]?></span>
-              <span class="pull-right-container">
+              <!-- <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
-              </span>
+              </span> -->
             </a>
           </li>
         <?php
         endforeach;
         ?>
         
-        <!-- <li class="treeview <?= ($current_page === "index") ? 'active' : '' ?>">
+        <!-- <li class="treeview ">
           <a href="index.php">
             <i class="fa fa-dashboard"></i> <span>Administration</span>
             <span class="pull-right-container">

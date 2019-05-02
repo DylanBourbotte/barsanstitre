@@ -49,7 +49,7 @@ $headernav = [
 ];
 
 $AdminMenu = [
-    'index' => ["fa-dashboard", "Administration", "index.php"],
+    'index' => ["fa-home", "Retour au site", "../index.php"],
     'contacts' => ["fa-align-left", "Demandes de contacts", "contacts.php"],
     'reservations' => ["fa-calendar", "Demandes de résérvations", "reservations.php"],
     'textes' => ["fa-pencil", "Modifications des textes", "textes.php"],

@@ -23,7 +23,7 @@ $retour = 2;
             </div>
             <div class="col-md-12">
                 <div class="form-group">
-                    <label class="blanc" for="date">Date de debut de l'évenement</label>
+                    <label class="blanc" for="date">Date de début de l'évenement</label>
                     <input type="datetime-local" class="form-control" id="meeting-start_time" name="start-time"
                         value="<?= $d1->format('Y-m-d\T18:00:00'); ?>">
                 </div>
@@ -44,7 +44,7 @@ $retour = 2;
             </div>
             <div class="col-md-12">
                 <div class="form-group">
-                    <label class="blanc" for="description">déscription</label>
+                    <label class="blanc" for="description">Laissez nous un message</label>
                     <textarea class="form-control" rows="5" name="description"></textarea>
                 </div>
             </div>
